@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    background-color: deeppink;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.book{
+    background-color:cornflowerblue;
+    width: 25%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    line-height: 1.4;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.book button{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.add-button{
+    background-color: deeppink;
+    color: black;
+    border-radius: 100%;
+    padding:10px 20px 10px 20px;
+    border: none;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    font-size: 50px;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;  
+}
+.popup-box{
+    background-color: deeppink;
+    width: 40%;
+    padding: 40px;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+}
+.popup-box h2{
+    margin-bottom: 5px;
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: solid black 2px;
+    margin-bottom: 20px;
+}
+.popup-box textarea{
+    background: transparent;
+    font-size: 20px;
+    width: 100%;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    border: solid black 2px;
+}
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box input:focus{
+    outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+}
+.popup-box button{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+}
